@@ -3,13 +3,15 @@ locale: en-us
 title: KoryHooper
 theme: ["PaperMod"]
 
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
+params:
+    defaultTheme: dark
+    disableThemeToggle: true
+    hideFooter: true
+    
+    homeInfoParams:
+        Title: Posts
+        
+    cover:
+        hidden: false
+        hiddenInList: false
+        hiddenInSingle: false
