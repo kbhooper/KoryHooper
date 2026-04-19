@@ -2,4 +2,4 @@
 title: "KoryHooper"
 ---
 
-This is basically a blog and the intended audience is my future self. Maybe?
+Welcome to my webzone. The purpose of this is for me to post pictures I've taken that I think are cool. 
