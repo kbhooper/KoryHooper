@@ -2,4 +2,4 @@
 title: "KoryHooper"
 ---
 
-Welcome to my webzone ☠︎︎
+My random pictures. 

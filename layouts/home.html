@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ with .Content }}
+<div class="post-content">
+    {{ . }}
+</div>
+{{ end }}
+
+<div class="gallery-wide">
+    <div class="gallery">
+        <a href="/gallery/R0000265_1920.jpg" class="gallery-link"><img src="/gallery/R0000265_1920.jpg" alt=""></a>
+        <a href="/gallery/R0000161x_1920.jpg" class="gallery-link"><img src="/gallery/R0000161x_1920.jpg" alt=""></a>
+        <a href="/gallery/R0000391_1920.jpg" class="gallery-link"><img src="/gallery/R0000391_1920.jpg" alt=""></a>
+        <a href="/gallery/R000064_1920.jpg" class="gallery-link"><img src="/gallery/R000064_1920.jpg" alt=""></a>
+        <a href="/gallery/RX000364_1920.jpg" class="gallery-link"><img src="/gallery/RX000364_1920.jpg" alt=""></a>
+        <a href="/gallery/RX000524_1920.jpg" class="gallery-link"><img src="/gallery/RX000524_1920.jpg" alt=""></a>
+    </div>
+</div>
+
+<div id="lightbox" class="lightbox">
+    <img id="lightbox-image" src="" alt="">
+</div>
+
+{{ end }}

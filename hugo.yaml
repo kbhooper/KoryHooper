@@ -3,6 +3,13 @@ locale: en-us
 title: KoryHooper
 theme: ["PaperMod"]
 
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
 params:
     defaultTheme: dark
     disableThemeToggle: true
